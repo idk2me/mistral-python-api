@@ -6,6 +6,7 @@ Before you can run the project, you need to define the `MISTRAL_API_KEY` in `.en
 Then you need to install `uv` and run
 ```bash
 uv venv
+source .venv/bin/activate
 uv sync
 uv run uvicorn main:app --reload
 ```
