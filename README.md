@@ -8,7 +8,7 @@ Then you need to install `uv` and run
 uv venv
 source .venv/bin/activate
 uv sync
-uv run uvicorn main:app --reload
+uv run uvicorn main:app
 ```
 
 Then you can open up `http://localhost:8000/docs` to see the OpenAPI specification. You can now run the [frontend](https://github.com/idk2me/mistral-project-frontend).
